@@ -26,7 +26,10 @@
   <main>
     <section class="home__page container">
       <div class="home__content">
-        <h1>WHAT IS YOUR ZODIAC SIGN?</h1>
+        <div class="text__content">
+          <h1>WHAT IS YOUR ZODIAC SIGN?</h1>
+          <p>Know you zodiac sign by using our application</p>
+        </div>
         <button>CONTINUE</button>
       </div>
     </section>
@@ -35,6 +38,7 @@
     </section>
   </main>
   <footer></footer>
+  <!-- star particles -->
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <div id="particles-js"></div>
   <script>

@@ -5,6 +5,11 @@
   font-weight: 600;
 }
 
+.home__page p {
+  font-size: var(--size-sm);
+  text-align: center;
+}
+
 .home__content {
   display: flex;
   flex-direction: column;
@@ -28,6 +33,10 @@
     gap: var(--size-xl);
     height: 360px;
   }
+
+  .home__page p {
+    font-size: var(--size-base);
+  }
 }
 
 /* sm */
@@ -47,7 +56,11 @@
 /* @media (min-width: 768px) {}   */
 
 /* lg */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+  .home__page p {
+    font-size: var(--size-lg);
+  }
+}
 
 /* xl */
 @media (min-width: 1280px) {
