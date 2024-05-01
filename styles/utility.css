@@ -77,6 +77,12 @@ button {
   .section {
     margin-top: 10rem;
   }
+
+  button {
+    padding: 13px 30px 13px 30px;
+    font-weight: 600;
+    font-size: var(--size-xl);
+  }
 }
 
 /* xl */

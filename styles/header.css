@@ -27,10 +27,26 @@
 /* @media (min-width: 768px) {}   */
 
 /* lg */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+  .logo__png {
+    width: 250px;
+  }
+  
+  .header__container {
+    margin-top: var(--size-3xl);
+  }  
+}
 
 /* xl */
-/* @media (min-width: 1280px) {} */
+@media (min-width: 1280px) {
+  .logo__png {
+    width: 280px;
+  }
+  
+  .header__container {
+    margin-top: var(--size-4xl);
+  }  
+}
 
 /* 2xl */
 /* @media (min-width: 1536px) {} */

@@ -50,7 +50,17 @@
 /* @media (min-width: 1024px) {} */
 
 /* xl */
-/* @media (min-width: 1280px) {} */
+@media (min-width: 1280px) {
+  .home__page h1 {
+    font-size: var(--size-3xl);
+    letter-spacing: 3px;
+  }
+
+  .home__content {
+    gap: var(--size-xl);
+    height: 450px;
+  }
+}
 
 /* 2xl */
 /* @media (min-width: 1536px) {} */
