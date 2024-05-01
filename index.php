@@ -4,12 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zodiac Calculator - Home</title>
+  <!-- css links -->
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/modernize.css">
   <link rel="stylesheet" href="styles/utility.css">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/homePage.css">
+  <!-- script links -->
+  <script src="main.js" defer></script>
   <!-- karla font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,17 +27,17 @@
     <img src="assets/images/logo.png" alt="" class="logo__png">
   </header>
   <main>
-    <section class="home__page container">
+    <section class="home__page container" style="display: none;">
       <div class="home__content">
         <div class="text__content">
           <h1>WHAT IS YOUR ZODIAC SIGN?</h1>
           <p>Know you zodiac sign by using our application</p>
         </div>
-        <button>CONTINUE</button>
+        <button class="continue__btn">CONTINUE</button>
       </div>
     </section>
     <section class="input__page container">
-
+    <h1>PUTANG INA MO KA</h1>
     </section>
   </main>
   <footer></footer>
