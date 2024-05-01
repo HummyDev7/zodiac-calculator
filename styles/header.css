@@ -1,0 +1,36 @@
+.logo__png {
+  width: 200px;
+}
+
+.header__container {
+  margin-top: var(--size-xl);
+}
+
+/* xss */
+/* @media (min-width: 320px) {} */
+
+/* xs */
+@media (min-width: 475px) {
+  .logo__png {
+    width: 220px;
+  }
+  
+  .header__container {
+    margin-top: var(--size-2xl);
+  }  
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {}   */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

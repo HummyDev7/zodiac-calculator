@@ -31,10 +31,21 @@
   margin-top: 5rem;
 }
 
+button {
+  border: 1.5px solid var(--clr-light);
+  padding: 8px;
+  font-weight: 600;
+}
+
 /* xs */
 @media (min-width: 475px) {
   .container {
     max-width: 475px;
+  }
+
+  button {
+    padding: 11px;
+    font-weight: 600;
   }
 }
 
