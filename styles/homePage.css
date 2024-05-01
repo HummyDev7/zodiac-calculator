@@ -1,0 +1,46 @@
+/* styling home page */
+.home__page h1 {
+  font-size: var(--size-lg);
+  letter-spacing: 2.5px;
+  font-weight: 600;
+}
+
+.home__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--size-lg);
+  height: 320px;
+  justify-content: center;
+}
+
+/* xss */
+/* @media (min-width: 320px) {} */
+
+/* xs */
+@media (min-width: 475px) {
+  .home__page h1 {
+    font-size: var(--size-xl);
+    letter-spacing: 3px;
+  }
+
+  .home__content {
+    gap: var(--size-xl);
+    height: 360px;
+  }
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {}   */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
