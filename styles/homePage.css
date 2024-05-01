@@ -31,7 +31,17 @@
 }
 
 /* sm */
-/* @media (min-width: 640px) {} */
+@media (min-width: 640px) {
+   .home__page h1 {
+    font-size: var(--size-2xl);
+    letter-spacing: 3px;
+  }
+
+  .home__content {
+    gap: var(--size-xl);
+    height: 360px;
+  }
+}
 
 /* md */
 /* @media (min-width: 768px) {}   */

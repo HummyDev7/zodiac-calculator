@@ -33,7 +33,7 @@
 
 button {
   border: 1.5px solid var(--clr-light);
-  padding: 8px;
+  padding: 8px 15px 8px 15px;
   font-weight: 600;
 }
 
@@ -44,7 +44,7 @@ button {
   }
 
   button {
-    padding: 11px;
+    padding: 11px 20px 11px 20px;
     font-weight: 600;
   }
 }
@@ -53,6 +53,11 @@ button {
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
+  }
+
+  button {
+    padding: 13px 25px 13px 25px;
+    font-weight: 600;
   }
 }
 
