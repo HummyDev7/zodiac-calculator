@@ -1,0 +1,16 @@
+{
+  "name": "moving-paused-hexagons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "build": "Multicolor Hexagons Moving/Paused - ParticleJS tutorial for beginners by Yash Chauhan(yc_codes)"
+  },
+  "keywords": [],
+  "author": "Yash Chauhan",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^11.2.0"
+  }
+}
