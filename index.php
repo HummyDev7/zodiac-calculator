@@ -51,13 +51,15 @@
                 <div class="name__text indicator__text">Name</div>
                 <input type="text" name="inputName" class="form__field">
             </div>
-            <div class="birhtday__text indicator__text">Birthday</div>
-            <div class="input__birthday">
-              <span id='birthday'>
-                <input type='text' name='month' id='month' placeholder="MM" maxlength='2' class='input-birthday'><span style="color: var(--clr-light);">/</span>
-                <input type='text' name='day' id='day' placeholder="DD" maxlength='2' class='input-birthday'> <span style="color: var(--clr-light);">/</span>
-                <input type='text' name='year' id='year' placeholder="YYYY" class='input-birthday' maxlength="4" >
-              </span>
+            <div class="input__birthdayContainer">
+              <div class="birhtday__text indicator__text">Birthday</div>
+              <div class="inpt__bday">
+                <span id='birthday'>
+                  <input type='text' name='month' id='month' placeholder="MM" maxlength='2' class='input-birthday'><span style="color: var(--clr-light);">/</span>
+                  <input type='text' name='day' id='day' placeholder="DD" maxlength='2' class='input-birthday'> <span style="color: var(--clr-light);">/</span>
+                  <input type='text' name='year' id='year' placeholder="YYYY" class='input-birthday' maxlength="4" >
+                </span>
+              </div>
             </div>
             <div class="submit__btn">
               <button type="submit" class="submit">Calculate</button>
