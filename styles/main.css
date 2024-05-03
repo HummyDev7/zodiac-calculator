@@ -5,3 +5,165 @@
   height: 96.7vh;
   z-index: -10;
 }
+
+
+.input__page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--size-3xl);
+}
+
+/* styling upper content */
+.upper__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-lg);
+  align-items: center;
+}
+
+.input__page .upper__content h2 {
+  font-size: var(--size-xl);
+  font-weight: 600;
+}
+
+.input__page .upper__content p {
+  font-size: var(--size-xs);
+  text-align: center;
+}
+
+/* Styling input */
+.form__field {
+	font-family: inherit;
+	width: 100%;
+	border: 0;
+	border-bottom: 2px solid var(--clr-primary);
+	outline: 0;
+	font-size: 1.3rem;
+	color: var(--clr-light);
+	padding: 7px 0;
+	background: transparent;
+	transition: border-color 0.2s;
+}
+
+.form__field::placeholder {
+	color: transparent;
+}
+
+.form__field:placeholder-shown ~ .form__label {
+	font-size: 1rem;
+	cursor: text;
+	top: 20px;
+}
+
+.form__label {
+	position: absolute;
+	top: 0;
+	display: block;
+	transition: 0.2s;
+	font-size: 0.5rem;
+	color: var(--clr-light);
+}
+
+.form__field:focus {
+	padding-bottom: 4px;
+	font-weight: 600;
+	border-image-slice: 1;
+}
+
+.form__field:focus ~ .form__label {
+	position: absolute;
+	top: 0;
+	display: block;
+	transition: 0.2s;
+	font-size: 1rem;
+	color: var(--clr-primary);
+}
+
+/* reset input */
+.form__field:required, .form__field:invalid {
+	box-shadow: none;
+}
+
+/* styling middle content */
+
+.middle__content form{
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-3xl);
+}
+
+/* styling dropdown */
+.select-dropdown,
+.select-dropdown * {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	box-sizing: border-box;
+}
+
+/* .select-dropdown {
+	position: relative;
+	background-color: var(--clr-light);
+} */
+
+.select-dropdown select {
+	font-size: 1rem;
+	font-weight: normal;
+	max-width: 100%;
+	padding: 20px 65px 20px 65px;
+	border: none;
+	background-color: var(--clr-dark-gray);
+		-webkit-appearance: none;
+		-moz-appearance: none;
+	appearance: none;
+	color: var(--clr-light);
+	border-radius: 10px;
+}
+/* .select-dropdown select:active, .select-dropdown select:focus {
+	outline: none;
+	box-shadow: none;
+  width: 200px;
+} */
+
+.input__birthday {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-xl);
+}
+
+.indicator__text {
+  font-size: var(--size-lg);
+}
+
+#birthday {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.input-birthday {
+  font-size: 1rem;
+  border: 0;
+  outline: 0;
+  margin: 3px;
+	padding: 5px;
+  color: var(--clr-light);
+	background-color: transparent;
+}
+
+.input__birthday {
+	border-radius: 10px;
+	padding: 10px;
+	background-color: var(--clr-dark-gray);
+}
+
+#month,
+#day {
+  width: 50px;
+}
+
+#year {
+  width: 50px;
+}
+

@@ -4,7 +4,7 @@
   --clr-light: #F0F0F0 ;
   --clr-primary: #39586F;
   /* capacity of 45% */
-  --clr-dark-gray: #5A5A5A; 
+  --clr-dark-gray: rgba(90, 90, 90, 0.7); 
       
    /* sizes */
    --size-xss: 0.5rem;

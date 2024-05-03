@@ -36,8 +36,34 @@
         <button class="continue__btn">CONTINUE</button>
       </div>
     </section>
-    <section class="input__page container">
-    <h1>PUTANG INA MO KA</h1>
+    <section class="input__page container section">
+      <div class="upper__content">
+        <h2>Know your zodiac sign</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Nunc lacinia nisl tortor, accumsan pretium metus tristique
+          quis. Ut metus dolor, dictum vitae diam ut
+        </p>
+      </div>
+      <div class="middle__content">
+        <form id="form" method="POST">
+            <div class="input__name">
+                <div class="name__text indicator__text">Name</div>
+                <input type="text" name="inputName" class="form__field">
+            </div>
+            <div class="birhtday__text indicator__text">Birthday</div>
+            <div class="input__birthday">
+              <span id='birthday'>
+                <input type='text' name='month' id='month' placeholder="MM" maxlength='2' class='input-birthday'><span style="color: var(--clr-light);">/</span>
+                <input type='text' name='day' id='day' placeholder="DD" maxlength='2' class='input-birthday'> <span style="color: var(--clr-light);">/</span>
+                <input type='text' name='year' id='year' placeholder="YYYY" class='input-birthday' maxlength="4" >
+              </span>
+            </div>
+            <div class="submit__btn">
+              <button type="submit" class="submit">Calculate</button>
+            </div>
+        </form>
+      </div>
     </section>
   </main>
   <footer></footer>
