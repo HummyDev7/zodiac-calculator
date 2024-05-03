@@ -33,7 +33,8 @@
 
 button {
   border: 1.5px solid var(--clr-light);
-  padding: 8px 15px 8px 15px;
+  padding: 10px 17px 10px 17px;
+  width: 100%;
   font-weight: 600;
 }
 
