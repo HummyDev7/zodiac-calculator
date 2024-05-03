@@ -3,6 +3,7 @@
   --clr-dark: #0C0C14;
   --clr-light: #F0F0F0 ;
   --clr-primary: #39586F;
+  --clr-primary-light: rgb(57, 88, 111, 0.3);
   /* capacity of 45% */
   --clr-dark-gray: rgba(90, 90, 90, 0.7); 
       
