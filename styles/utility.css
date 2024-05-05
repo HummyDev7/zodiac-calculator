@@ -38,15 +38,22 @@ button {
   font-weight: 600;
 }
 
+.continue__btn {
+  border: 1.5px solid var(--clr-light);
+  padding: 10px 17px 10px 17px;
+  width: 100%;
+  font-weight: 600;
+}
+
 /* xs */
 @media (min-width: 475px) {
   .container {
     max-width: 475px;
   }
 
-  button {
+  .continue__btn {
     padding: 11px 20px 11px 20px;
-    font-weight: 600;
+    width: 80%;
   }
 }
 
@@ -56,9 +63,9 @@ button {
     max-width: 640px;
   }
 
-  button {
+  .continue__btn {
     padding: 13px 25px 13px 25px;
-    font-weight: 600;
+    width: 70%;
   }
 }
 
@@ -66,6 +73,10 @@ button {
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
+
+  .continue__btn {
+    width: 50%;
   }
 }
 
@@ -79,10 +90,8 @@ button {
     margin-top: 10rem;
   }
 
-  button {
-    padding: 13px 30px 13px 30px;
-    font-weight: 600;
-    font-size: var(--size-xl);
+  .continue__btn {
+    width: 40%;
   }
 }
 
@@ -91,11 +100,19 @@ button {
   .container {
     max-width: 1280px;
   }
+
+  .continue__btn {
+    width: 30%;
+  }
 }
 
 /* 2xl */
 @media (min-width: 1536px) {
   .container {
     max-width: 1536px;
+  }
+
+  .continue__btn {
+    width: 20%;
   }
 }
