@@ -27,7 +27,7 @@
     <img src="assets/images/logo.png" alt="" class="logo__png">
   </header>
   <main>
-    <section class="home__page container">
+    <section class="home__page container" >
       <div class="home__content">
         <div class="text__content">
           <h1>WHAT IS YOUR ZODIAC SIGN?</h1>
@@ -36,9 +36,9 @@
         <button class="continue__btn">CONTINUE</button>
       </div>
     </section>
-    <section class="input__page container section" style="display: none;">
+    <section class="input__page container" style="display: none;">
       <div class="upper__content">
-        <h2>Know your zodiac sign</h2>
+        <h2 class="basta">Know your zodiac sign</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Nunc lacinia nisl tortor, accumsan pretium metus tristique
