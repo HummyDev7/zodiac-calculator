@@ -10,10 +10,8 @@
   <link rel="stylesheet" href="styles/utility.css">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/main.css">
-  <link rel="stylesheet" href="styles/homePage.css">
-  <!-- script links -->
-  <script src="main.js" defer></script>
   <!-- karla font -->
+  <script src="main.js" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
@@ -27,18 +25,9 @@
     <img src="assets/images/logo.png" alt="" class="logo__png">
   </header>
   <main>
-    <section class="home__page container" >
-      <div class="home__content">
-        <div class="text__content">
-          <h1>WHAT IS YOUR ZODIAC SIGN?</h1>
-          <p>Know you zodiac sign by using our application</p>
-        </div>
-        <button class="continue__btn">CONTINUE</button>
-      </div>
-    </section>
-    <section class="input__page container" style="display: none;">
+    <section class="input__page container">
       <div class="upper__content">
-        <h2 class="basta">Know your zodiac sign</h2>
+        <h2>Know your zodiac sign</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Nunc lacinia nisl tortor, accumsan pretium metus tristique
@@ -46,7 +35,7 @@
         </p>
       </div>
       <div class="middle__content">
-        <form id="form" method="POST">
+        <form id="form" method="post" action="calculateZodiac.php">
             <div class="input__name">
                 <div class="name__text indicator__text">Name</div>
                 <input type="text" name="inputName" class="form__field">
@@ -62,13 +51,15 @@
               </div>
             </div>
             <div class="submit__btn">
-              <button type="submit" class="submit">Calculate</button>
+              <button type="submit" class="submit" onclick="submitForm()" value="submit" name="submit">Calculate</button>
             </div>
         </form>
+        <?php
+          include 'calculateZodiac.php';
+        ?>
       </div>
     </section>
   </main>
-  <footer></footer>
   <!-- star particles -->
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <div id="particles-js"></div>
